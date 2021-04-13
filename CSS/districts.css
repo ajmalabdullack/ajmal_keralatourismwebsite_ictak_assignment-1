@@ -1,0 +1,71 @@
+*{
+    padding:0;
+    margin: 0;
+}
+.logo{
+    margin-right: 10px;
+}
+.head{
+    font-size:30px;
+}
+#navhome:hover{
+    color: rgb(35, 190, 35);
+}
+#navdistrict{
+    font-weight: bold;
+    color: white;
+}
+#navdistrict:hover{
+    color:rgb(35, 190, 35); 
+}
+.display-3{
+    text-align: center;
+} 
+.btn{
+    margin-right: 0.5rem;
+}
+.card-title{
+    font-weight: bold;
+    
+}
+.imgtext{
+    text-align: center;
+    font-size: 40px;
+    opacity: 0;
+    padding-top:0px;
+    color: white;
+    
+}
+.imgtext:hover{
+    opacity: 1;
+}
+.cardstyle{
+    border: 2px solid rgb(58, 56, 56);
+    margin-left:20px;
+    text-align: center;
+    margin-right: 20px;
+}
+.cardstyle:hover{
+background-color: rgb(58, 56, 56);
+color: white;
+}
+footer{
+    background-color: rgb(228, 220, 220);
+    height: 8rem;
+    color: black;
+    line-height: 1rem;
+    text-align: center;
+    
+}
+.icon{
+    padding-top: 0.5rem;
+}
+.footer{
+    padding-top: 1rem;
+}
+.useless{
+    height: 71px;
+    width: 100%;
+}
+
+

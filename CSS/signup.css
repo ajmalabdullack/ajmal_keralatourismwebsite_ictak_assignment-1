@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    margin-right: 10px;
+}
+.head{
+    font-size:30px;
+}
+body{
+    background-size: cover;
+}
+.btn{
+    margin-right: 0.5rem;
+}
+.btntext{
+    color: white;
+    font-weight: bold;
+}
+.signupform{
+   padding: 10px;
+   margin-left:32%;
+   border: 4px solid rgb(136, 136, 236);
+   background-color: lavender;
+   
+}
+.signupheading{
+    text-align: center;
+}
+.signuppara{
+    text-align: center;
+}
+#navhome:hover{
+    color: rgb(35, 190, 35);
+}
+#navdistrict:hover{
+    color:rgb(35, 190, 35); 
+}
+footer{
+    background-color:  rgb(228, 220, 220);
+    height: 8rem;
+    color: black;
+    line-height: 1rem;
+    text-align: center;
+    
+}
+.icon{
+    padding-top: 0.5rem;
+}
+.footer{
+    padding-top: 1rem;
+}
+.uselessign{
+    height: 100px;
+    width: 100%;
+}
+/* form .indicator{
+    height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1.5px 0;
+}
+form .indicator span{
+    width: 100%;
+    height: 100%;
+    background: lightgrey;
+    border-radius: 5px;
+}
+form .indicator span.medium{
+    margin: 0 3px;
+}
+form .indicator span::before{
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background; */
+/* } */
+
+
+

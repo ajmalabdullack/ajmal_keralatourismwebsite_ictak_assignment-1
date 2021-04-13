@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/districts.css">
+    <title>Keralatourism</title>
+</head>
+<body>
+    <!-- navbar starts here -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <img class="logo" src="PICTURES/Kerala Tourisam.png" alt="" width="80" height="50" class="d-inline-block align-top">
+            
+          <a class="navbar-brand fw-bold head" href="#">Keralatourism.org</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active " id="navhome" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="navdistrict" href="#">Districts</a>
+              </li>              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle btn btn-outline-success" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Log in
+                </a>
+                <div class="dropdown-menu">
+                  <form action="index.html" class="px-4 py-3" onsubmit="return !! (validateemailnav() & validatenavpass());">
+                    <div class="mb-3">
+                      <label for="exampleDropdownFormEmail1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="Emailnav" placeholder="email@example.com">
+                      <label for="error" id="errornav"></label>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleDropdownFormPassword1" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="pwdnav" placeholder="Password">
+                      <label for="passworderror" id="pwdnaverror"></label>
+                    </div>
+                    <div class="mb-3">
+                      <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                        <label class="form-check-label" for="dropdownCheck">
+                          Remember me
+                        </label>
+                      </div>
+                    </div>
+                    <button type="submit" id="submit" class="btn btn-primary">Sign in</button>
+                  </form>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">New around here? Sign up</a>
+                  <a class="dropdown-item" href="#">Forgot password?</a>
+                </div>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#"></a></li>
+                  <li><a class="dropdown-item" href="#">Facebook</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#"></a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn btn-outline-primary" href="signup.html" role="button">Sign up</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li> -->
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success " type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- nav bar end here -->
+      <!-- heading -->
+      <div class="useless"></div>
+      <h3 class="display-3">Kerala Districts</h3><br>
+      <!-- heading end here -->
+      <!-- Districts stras here -->
+      <!-- trivandrum -->
+      <div class="container"> 
+        <div class="row"> 
+            <div class="col-lg-6 mb-4">
+      <div class="card cardstyle" style="width: 30rem;">
+        <img class="card-img-top " src="PICTURES/trivandrum.jpg" alt="Thirivananthapuram">
+        
+        <div class="card-body">
+          <h5 class="card-title" >Thiruvananthapuram</h5>
+          <p class="card-text lh-base">Thiruvananthapuram (or Trivandrum) is the capital of the southern Indian state of Kerala. It's distinguished by its British colonial architecture and many art galleries. <br>Thiruvananthapuram is a major tourist centre, known for the Padmanabhaswamy Temple, the beaches of Kovalam and Varkala, the backwaters of Poovar and Anchuthengu and its Western Ghats tracts of Ponmudi and the Agastyamala. </p>
+          <a  class="btn btn-outline-success" href="trivandrum.html" role="button">Explore Trivandrum</a>       
+        </div>
+      </div>
+            </div>
+      
+      <!-- kollam -->
+      <div class="col-lg-6 mb-4">
+      <div class="card cardstyle" style="width: 30rem;">
+        <img src="PICTURES/kollam.jpg" class="card-img-top" alt="kollam">
+        <div class="card-body">
+          <h5 class="card-title">Kollam</h5>
+          <p class="card-text">Kollam district is one of 14 districts of the state of Kerala, India. The district has a cross-section of Kerala's natural attributes; it is endowed with a long coastline, a major Laccadive Sea seaport and an inland lake. The district has many water bodies.Since it is located on the banks of Ashtamudi Lake, it is also one of the best places to go cruising in the backwaters. </p><br>
+          <a href="kollam.html" class="btn btn-outline-success">Explore Kollam</a>
+        </div>
+      </div>
+      </div>
+        </div>
+      </div>
+    <br>
+    <!-- pathanamthitta -->
+    <div class="container"> 
+      <div class="row"> 
+          <div class="col-lg-6 mb-4">
+    <div class="card cardstyle" style="width: 30rem;">
+      <img class="card-img-top " src="PICTURES/pathanamthittanw.jpg" alt="Pathanamthitta" height="320px">
+      <div class="card-body">
+        <h5 class="card-title" >Pathanamthitta</h5>
+        <p class="card-text lh-base">The smallest of Kerala districts, situated in the southern region of Kerala, Pathanamthitta has nearly half of its total area under forest cover.Situated near the Western Ghats and bordered by the hills, Pathanamthitta district is a treat to eyes with its vast unending stretches of forests, rivers and rural landscapes. Blessed by nature, the district is famous for its scenic beauty, fairs and festivals.</p>
+        <a href="Pathanamthitta.html" class="btn btn-outline-success">Explore Pathanamthitta</a>
+      </div>
+    </div>
+          </div>
+    
+    <!-- Alappuzha -->
+    <div class="col-lg-6 mb-4">
+    <div class="card cardstyle" style="width: 30rem;">
+      <img src="PICTURES/alleppey.jpg" class="card-img-top" alt="Alappuzha">
+      <div class="card-body">
+        <h5 class="card-title">Alappuzha</h5>
+        <p class="card-text lh-base">Alappuzha (or Alleppey) is a city on the Laccadive Sea in the southern Indian state of Kerala. It's best known for houseboat cruises along the rustic Kerala backwaters, a network of tranquil canals and lagoons. Alappuzha Beach is the site of the 19th-century Alappuzha Lighthouse. The city's Mullakkal Temple features a traditional design. Punnamada Lake's snake boat races are a well-known annual event</p>
+        <a href="Alappuzha.html" class="btn btn-outline-success">Explore Alappuzha</a>
+      </div>
+    </div>
+    </div>
+      </div>
+    </div>
+    <br>
+    <!-- idukki -->
+    <div class="container"> 
+      <div class="row"> 
+          <div class="col-lg-6 mb-4">
+    <div class="card cardstyle" style="width: 30rem;">
+      <img class="card-img-top " src="PICTURES/idukki munnar.jpg" alt="Idukki" height="320px">
+      <div class="card-body">
+        <h5 class="card-title" >Idukki</h5>
+        <p class="card-text lh-base">Idukki district is a densely forested, mountainous region in the south Indian state of Kerala. In the north, Anamudi mountain towers over Eravikulam National Park, where the rare, blue Neelakurinji flower blooms every 12 years. Nearby, Munnar is a hill station known for its sprawling tea plantations and Tea Museum. Farther south is the vast, curved Idukki Dam and Periyar National Park, a tiger and elephant reserve.</p>
+        <a href="Idukki.html" class="btn btn-outline-success">Explore Idukki</a>
+      </div>
+    </div>
+          </div>
+    
+    <!-- kottayam -->
+    <div class="col-lg-6 mb-4">
+    <div class="card cardstyle" style="width: 30rem;">
+      <img src="PICTURES/kottayam kumarakom.jpg" class="card-img-top" alt="Kottayam" height="320px">
+      <div class="card-body">
+        <h5 class="card-title">Kottayam</h5>
+        <p class="card-text lh-base">Kottayam is one of fourteen districts in the state of Kerala, India.It is the only district in Kerala that neither border thKottayam is also called as “Akshara Nagari” which means the “city of letters” considering its contribution to print media and literature. Kottayam Town is the first town in India to have achieved 100% literacye Arabian Sea nor any other states.</p><br>
+        <a href="kottayam.html" class="btn btn-outline-success">Explore Kottyam</a>
+      </div>
+    </div>
+    </div>
+      </div>
+    </div>
+    <br>
+    <!-- ernakulam -->
+    <div class="container"> 
+      <div class="row"> 
+          <div class="col-lg-6 mb-4">
+    <div class="card cardstyle" style="width: 30rem;">
+      <img class="card-img-top " src="PICTURES/Eranakulam.jpg" alt="Eranakulam" height="320px">
+      <div class="card-body">
+        <h5 class="card-title" >Eranakulam</h5>
+        <p class="card-text lh-base">The district includes Kochi, also known as the IT and commercial capital of Kerala, which is famous for its ancient Hindu temples, churches, and mosques. ... The district also hosts the highest number of international and domestic tourists in Kerala state.kochi Popularly known as the Queen of Arabian Sea, the city also flaunts one of the finest natural harbours of the world and was the centre of the world spice trade for many centuries</p>
+        <a href="Ernakulam.html" class="btn btn-outline-success">Explore Ernakulam</a>
+      </div>
+    </div>
+          </div>
+    
+    <!-- thrissur -->
+    <div class="col-lg-6 mb-4">
+    <div class="card cardstyle" style="width: 30rem;">
+      <img src="PICTURES/Thrissur.jpg" class="card-img-top" alt="Thrissur" height="320px">
+      <div class="card-body">
+        <h5 class="card-title">Thrissur</h5>
+        <p class="card-text lh-base">Thrissur is a city in the south Indian state of Kerala. It's known for sacred sites and colorful festivals. In the center is Vadakkumnathan Temple, dedicated to Lord Shiva and adorned with murals. The ornate, Indo-Gothic Our Lady of Dolours Basilica is nearby. To the north, Thiruvambady Temple is home to several elephants. Sakthan Thampuran Palace houses an archaeology museum with bronze statues and ancient coins</p>
+        <a href="Thrissur.html" class="btn btn-outline-success">Explore Thrissur</a>
+      </div>
+    </div>
+    </div>
+      </div>
+    </div>
+    <br>
+    <!-- Palakkad -->
+    <div class="container"> 
+      <div class="row"> 
+          <div class="col-lg-6 mb-4">
+    <div class="card cardstyle" style="width: 30rem;">
+      <img class="card-img-top " src="PICTURES/Palakkad kava.jpg" alt="Palakkad" height="270px" >
+      <div class="card-body">
+        <h5 class="card-title" >Palakkad</h5>
+        <p class="card-text lh-base">Palakkad District, in the southeastern part of the former Malabar district, is one of the 14 districts of the South Indian state of Kerala.Also, it is the largest district in Kerala since 2006. This beautiful district in Kerala is very famous for the Palakkad Fort, the Jain temple, the annual Ratholsavam and of course for the extremely beautiful green and lush Malampuzha gardens and dams. Some of the major points of attraction in this spectacular place are the Tipu Sultan Fort and the Fantasy park.</p>
+        <a href="Palakkad.html" class="btn btn-outline-success">Explore Palakkad</a>
+      </div>
+    </div>
+          </div>
+    
+    <!-- Malappuram -->
+    <div class="col-lg-6 mb-4">
+    <div class="card cardstyle" style="width: 30rem;">
+      <img src="PICTURES/Malappuram mini ooty.jpg" class="card-img-top" alt="Malappuram">
+      <div class="card-body">
+        <h5 class="card-title">Malappuram</h5>
+        <p class="card-text lh-base">Malappuram is one of the 14 districts in the Indian state of Kerala, with a coastline of 70 km. It is the most populous district of Kerala.Best of Malappuram tourist places include names of Kottakkunnu, Kadalundi Bird Sanctuary, Keralam Kundu Waterfalls, Nedumkayam, Arimbra Hills, Adyanpara Waterfalls, and many others.Arimbra Hills, popularly known as the Mini Ooty is a tourist spot in Malappuram. It is an ideal place to feel the clouds and to watch sunset</p><br>
+        <a href="Malappuram.html" class="btn btn-outline-success">Explore Malappuram</a>
+      </div>
+    </div>
+    </div>
+      </div>
+    </div>
+    <br>
+    <!-- kozhikkode -->
+    <div class="container"> 
+      <div class="row"> 
+          <div class="col-lg-6 mb-4">
+    <div class="card cardstyle" style="width: 30rem;">
+      <img class="card-img-top " src="PICTURES/kozhikkode beach.jpg" alt="Kozhikkode" height="320px"  >
+      <div class="card-body">
+        <h5 class="card-title" >Kozhikkode</h5>
+        <p class="card-text lh-base">Kozhikode or Calicut district, in the central part of the former Malabar district, is a district of Kerala state, on the southwest coast of India. The city of Kozhikode, also known as Calicut.Kozhikode is one of the best cities in Kerala. Endowed with lush green countrysides, serene beaches, historic sites, wildlife sanctuaries, rivers, and hills, this city enchants both its inhabitants and its guests. With its unique culture and friendly ambiance, Kozhikode is a wondrous destination for all.</p>
+        <a href="Kozhikkode.html" class="btn btn-outline-success">Explore Kozhikkode</a>
+      </div>
+    </div>
+          </div>
+    
+    <!-- Wayanad -->
+    <div class="col-lg-6 mb-4">
+    <div class="card cardstyle" style="width: 30rem;">
+      <img src="PICTURES/wayanad churam.jpg" class="card-img-top" alt="Wayanad">
+      <div class="card-body">
+        <h5 class="card-title">Wayanad</h5>
+        <p class="card-text lh-base">Wayanad is a rural district in Kerala state, southwest India.Wayanad is famous for its large amount of camping and trekking trails, breathtaking waterfalls, caves, bird watching sites, flora, fauna and an overall plethora of magnificent sights. This area has been a tourist favourite over the years.In the Ambukuthi Hills to the south, Edakkal Caves contain ancient petroglyphs, some dating back to the Neolithic age.</p><br>
+        <a href="Wayanad.html" class="btn btn-outline-success">Explore Wayanad</a>
+      </div>
+    </div>
+    </div>
+      </div>
+    </div>
+    <br>
+    <!-- Kannur -->
+    <div class="container"> 
+      <div class="row"> 
+          <div class="col-lg-6 mb-4">
+    <div class="card cardstyle" style="width: 30rem;">
+      <img class="card-img-top " src="PICTURES/kannur muzhappilangadi.jpg" alt="Kannur" height="320px"  >
+      <div class="card-body">
+        <h5 class="card-title" >Kannur</h5>
+        <p class="card-text lh-base">Kannur is a coastal city in the south Indian state of Kerala.Kannur is believed to have got its name from being the land of Kannan or Krishna. True to the legend there are many famous temples in the region. The district is also famous for many alluring spots of interest including Payyambalam and Muzhuppilangadi beach, Arakkal museum.</p>
+        <a href="kannur.html" class="btn btn-outline-success">Explore Kannur</a>
+      </div>
+    </div>
+          </div>
+    
+    <!--Kasargod -->
+    <div class="col-lg-6 mb-4">
+    <div class="card cardstyle" style="width: 30rem;">
+      <img src="PICTURES/Kasargod bekal fort.jpg" class="card-img-top" alt="Kasargod">
+      <div class="card-body">
+        <h5 class="card-title">Kasargod</h5>
+        <p class="card-text lh-base">The northernmost district of Kerala, Kasaragod is famous for its handlooms and its 293 kilometre long coastline. With its cultural uniqueness, the place is known as the land of gods. Rich in history, Kasaragod is home to the largest and best preserved fort in the State - Bekal.</p><br>
+        <a href="Kasargod.html" class="btn btn-outline-success">Explore Kasargod</a>
+      </div>
+    </div>
+    </div>
+      </div>
+    </div>
+    <br>
+     <!-- footer starts here -->
+<footer>
+  <div class="container footer">
+    <div class="row">
+      <div class="col-sm">
+        <h6>Contact Us</h6>
+       <p> Phone:+91 471 231132 <br>
+        E-mail:<a href="mailto:info@keralatourism.org">info@keralatourism.org</a></p>
+      </div>
+      <div class="col-sm">
+       <h6> Connect With Us:</h6>
+        <a href="https://www.facebook.com/keralatourismofficial/"><img src="icons/facebook.svg" 
+          alt="fb" width="30"
+          height="30" title="Icons"> </a>
+          <a href="https://twitter.com/KeralaTourism"><img src="icons/iconmonstr-twitter-1.svg" 
+            alt="twtr" width="30"
+            height="30" title="Icons"> </a>
+            <a href="https://www.youtube.com/channel/UCmiF2GcrQwFeiTdnKJ_023A"><img src="icons/iconmonstr-youtube-6.svg" 
+              alt="youtube" width="30"
+              height="30" title="Icons"> </a>
+              <a href="https://www.instagram.com/keralatourism/?hl=en"><img src="icons/iconmonstr-instagram-11.svg" 
+                alt="" width="30"
+                height="30" title="Icons"> </a>
+      </div>
+      <div class="col-sm">
+        <h6>Headquarters</h6>
+        <p>Department of Tourism, Government of Kerala, Park View, Thiruvananthapuram <br> Kerala, India - 695 033</p>
+      </div>
+    </div>
+  </div>
+  copyright@2020
+</footer>
+<!-- footer end here -->
+<script src="signup.js"></script>   
+</body>
+</html>

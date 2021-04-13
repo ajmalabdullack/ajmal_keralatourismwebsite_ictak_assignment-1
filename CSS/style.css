@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    margin-right: 10px;
+}
+.head{
+    font-size:30px;
+}
+.bgcolor{
+    background-color:white;
+}
+.btn{
+    margin-right: 0.5rem;
+}
+.topdestination{
+    color:rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 2rem;
+    margin-top: 1rem;
+    /* font-size:50px;
+    font-weight: bold; */
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
+#navhome{
+    font-weight: bold;
+    color: white;
+}
+#navhome:hover{
+    color: rgb(35, 190, 35);
+}
+#navdistrict:hover{
+    color:rgb(35, 190, 35); 
+}
+footer{
+    background-color:  rgb(228, 220, 220);
+    height: 8rem;
+    color: black;
+    line-height: 1rem;
+    text-align: center;
+    
+}
+.icon{
+    padding-top: 0.5rem;
+}
+.footer{
+    padding-top: 1rem;
+}
+
